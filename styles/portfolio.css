@@ -54,8 +54,12 @@ p {
   margin: 20px 20px;
   background-color: var(--complementary-color);
   color: var(--contrast-color);
-  padding: 50px 20px 0 20px;
+  padding: 50px 35px 0 20px;
   border-radius: 30px;
+}
+
+.container h2 {
+  padding-bottom: 20px;
 }
 
 .imageLeft {
@@ -69,7 +73,7 @@ p {
   border-radius: 30px 30px 0 0;
   max-width: 100%;
   display: block;
-  margin-right: 20px;
+  padding-right: 5px;
 }
 
 .description {
@@ -77,15 +81,12 @@ p {
   text-align: center;
 }
 
-.descriptionButtons {
+.descriptionLinks {
   display: flex;
   justify-content: space-around;
 }
-.descriptionButtons button {
-  background: transparent;
+.descriptionLinks a {
   color: var(--contrast-color);
-  border: 0;
   font-family: "Poppins", sans-serif;
-  text-decoration: underline;
   margin-top: 60px;
 }
