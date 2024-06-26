@@ -21,7 +21,7 @@ p {
 .hero {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 130px 20px;
+  padding: 100px 20px;
   color: var(--complementary-color);
 }
 
@@ -54,7 +54,7 @@ p {
   padding: 100px 0 20px 0;
 }
 
-.container {
+.project-description {
   max-width: 1000px;
   margin: 20px 20px;
   background-color: var(--complementary-color);
@@ -63,7 +63,7 @@ p {
   border-radius: 30px;
 }
 
-.container h2 {
+.project-description h2 {
   padding-bottom: 20px;
 }
 
@@ -96,8 +96,46 @@ p {
   margin-top: 60px;
 }
 
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px 20px 20px;
+}
+
+.about-description {
+  margin: 20px 20px;
+  background-color: var(--complementary-color);
+  color: var(--contrast-color);
+  border-radius: 30px;
+}
+
 .aboutText {
-  margin: 0 100px 30px 100px;
+  margin-bottom: 40px;
   padding: 0 20px;
   text-align: justify;
+}
+
+.aboutText .sectionTittle {
+  padding: 50px 0 20px 0;
+}
+
+.about-image {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.about-image img {
+  border: 7px solid var(--primary-color);
+  border-radius: 30px;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: end;
+}
+
+.contactIcons i {
+  font-size: 30px;
 }
