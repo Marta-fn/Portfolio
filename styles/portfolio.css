@@ -139,3 +139,17 @@ p {
 .contactIcons i {
   font-size: 30px;
 }
+
+.projects-carousel {
+  margin: 0 250px 30px 250px;
+}
+
+.projects-carousel .description {
+  border-radius: 15px;
+  background-color: rgba(13, 6, 40, 0.4);
+  color: var(--contrast-color);
+}
+
+.projects-carousel p {
+  margin: 0;
+}
