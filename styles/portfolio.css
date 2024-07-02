@@ -131,7 +131,7 @@ p {
   border-radius: 30px;
 }
 
-.contactIcons {
+.aboutText .contactIcons {
   display: flex;
   justify-content: end;
 }
@@ -152,4 +152,19 @@ p {
 
 .projects-carousel p {
   margin: 0;
+}
+
+.contactInfo {
+  margin-left: 300px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.contactInfo a {
+  color: var(--complementary-color);
+}
+
+.contactInfo a:hover {
+  color: var(--primary-color);
 }
