@@ -184,3 +184,38 @@ p {
 .contactInfo a:hover {
   color: var(--primary-color);
 }
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #0d0628;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+.footer-icons a {
+  margin: 0 12px;
+}
+
+footer i {
+  margin-top: 20px;
+  padding: 12px 12px;
+  font-size: 24px;
+  background-color: var(--primary-color);
+  color: var(--complementary-color);
+  border-radius: 50%;
+}
+
+footer i:hover {
+  background-color: var(--complementary-color);
+  color: var(--contrast-color);
+}
