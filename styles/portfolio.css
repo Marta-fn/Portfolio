@@ -102,11 +102,15 @@ p {
 .description {
   padding-left: 20px;
   text-align: center;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
 }
 
 .descriptionLinks {
   display: flex;
   justify-content: space-around;
+  margin-top: auto;
   padding-bottom: 20px;
 }
 
